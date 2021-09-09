@@ -1,0 +1,30 @@
+#mainMenu {
+    -fx-font-size: 9.5pt;
+}
+
+.redBackground {
+    -fx-control-inner-background: #FE6969;
+}
+
+.redBackgroundFieldOnly > .text-field {
+    -fx-control-inner-background: #FE6969;
+}
+
+.redBackgroundPane > tab-header-area > tab-header-background {
+    -fx-background-color: #FEC5C5;
+}
+
+.text-field, .combo-box, .list-view, .data-picker {
+    -fx-alignment: center-left;
+}
+
+HBox .label {
+    -fx-alignment: center-left;
+    -fx-max-height: 50;
+    /*-fx-background-color: blue;*/
+}
+
+#statusna_vrstica_label {
+    -fx-fit-to-width: true;
+    -fx-alignment: center-left;
+}
